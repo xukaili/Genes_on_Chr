@@ -1,5 +1,5 @@
 # Genes_on_Chr
-Extract detail information from Genes_on_Chr.R
+Extract detail information from 'Genes_on_Chr.R'
 ![image](https://github.com/xukaili/Genes_on_Chr/blob/master/Genes_on_Chr_plot.png)
 
 # Description

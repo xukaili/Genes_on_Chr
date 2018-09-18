@@ -1,7 +1,7 @@
 # Genes_on_Chr
 Extract detail information from __`Genes_on_Chr.R`__
-![At](Genes_on_Chr_plot.png)
-
+![At](Genes_on_Chr_At.png)
+![Os](Genes_on_Chr_Os.png)
 ## Description
 The __`Genes_on_Chr.R`__ can be used to draw the corresponding genes on chromosome map quickly in `PDF` format based on the input data. It will become a useful tool for `drawing genes on chromosome map` with the advantages of simple input data format, easily modified output and very good portability.</br></br>
 

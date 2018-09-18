@@ -11,7 +11,7 @@ All __`R`__ versions</br></br>
 ## Getting started
 Put __`Genes_on_Chr.R`__ and data files in a same dir, then run:</br></br>
 ```
-Rscript  Genes_on_Chr.R  chr.txt  gene.txt</br>
+Rscript  Genes_on_Chr.R  chr.txt  gene.txt
 ```
 </br>
 
@@ -19,13 +19,13 @@ Rscript  Genes_on_Chr.R  chr.txt  gene.txt</br>
 If you do not have the data files:</br>
 1. Get __`chr.txt`__ form __`genome.fa`__:</br>
 ```
-perl -e '$/ = ">"; while (<>) {($head,$seq) = split(/\n/,$_,2); $len = length $seq; $head =~ /(\d+)/; print "$1\t$len\n";}'  genome.fa > chr.txt</br>
+perl -e '$/ = ">"; while (<>) {($head,$seq) = split(/\n/,$_,2); $len = length $seq; $head =~ /(\d+)/; print "$1\t$len\n";}'  genome.fa > chr.txt
 ```
-</br></br>
+</br>
 
 2. Get __`gene.txt`__ form __`genome.gff`__:</br>
 ```
-perl    Search.pl    list.txt    GFF3.gff    >    gene.txt</br>
+perl  Search.pl  list.txt  GFF3.gff  >  gene.txt
 ```
 </br>
 

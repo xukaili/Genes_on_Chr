@@ -19,7 +19,7 @@ Rscript  Genes_on_Chr.R  chr.txt  gene.txt
 If you do not have the data files:</br>
 1. Get __`chr.txt`__ form __`genome.fa`__:</br>
 ```
-perl -e '$/=">";while(<>){($head,$seq)=split(/\n/,$_,2);$len=length $seq;$head=~/(\d+)/;print "$1\t$len\n";}' genome.fa>chr.txt
+perl -e '$/ = ">"; whil e(<>) {($head,$seq) = split (/\n/,$_,2); $len = length $seq; $head =~ /(\d+)/; print "$1\t$len\n";}' genome.fa > chr.txt
 ```
 </br>
 

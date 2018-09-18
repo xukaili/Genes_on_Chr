@@ -64,7 +64,7 @@ genes = cbind (genes[,1],genes[,2]/denominator, as.data.frame(genes[,3]))
 size = chromosome[,2]
 chr = chromosome[,1]
 
-pdf("Gene_on_Chr_plot.pdf",(max(chr)+4),7)
+pdf("Genes_on_Chr_plot.pdf",(max(chr)+4),7)
 pp = barplot(size, space = max(chr), border=NA, ylab = paste(mainY,"in length"), col=c(rep("gray",max(chr)-1),"white"))
 axis(1,at=pp,c(paste("Chr",1:(max(chr)-1),sep = ""),""),tick = FALSE, col.axis="black")
 for (k in 1:max(chr)) {

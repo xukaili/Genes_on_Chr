@@ -1,5 +1,5 @@
 # Genes_on_Chr
-Extract detail information from `Genes_on_Chr.R`
+Extract detail information from `__Genes_on_Chr.R__`
 ![At](Genes_on_Chr_plot.png)
 
 # Description

@@ -17,7 +17,7 @@ Put `Genes_on_Chr.R` and data files in a same dir, then run:</br></br>
 If you do not have the data files:</br>
 1. Get `chr.txt` form `genome.fa`:</br></br>
 >  perl -e '$/ = ">"; while (<>) {($head,$seq) = split(/\n/,$_,2); $len = length $seq; $head =~ /(\d+)/; print "$1\t$len\n";}'  genome.fa > chr.txt</br>
-</br>
+</br></br>
 
 2. Get `gene.txt` form `genome.gff`:</br></br>
 >  perl    Search.pl    list.txt    GFF3.gff    >    gene.txt</br>

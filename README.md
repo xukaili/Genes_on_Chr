@@ -7,7 +7,7 @@ The Genes_on_Chr.R can be used to draw the corresponding genes on chromosome map
 
 
 # Getting started
-put Genes_on_Chr.R and data files in a same dir.</br>
+put Genes_on_Chr.R and data files in a same dir, then run:</br></br>
   Rscript  Genes_on_Chr.R  chr.txt  gene.txt</br></br>
 
 # Contact information

@@ -1,6 +1,7 @@
 # Genes_on_Chr
- ![image](https://github.com/xukaili/Genes_on_Chr/Gene_on_Chr_plot.png)
-
+Extract detail information from Genes_on_Chr.R</br>
+![image](https://github.com/xukaili/Genes_on_Chr/blob/master/Gene_on_Chr_plot.png)
+</br>
 # Description
 The Genes_on_Chr.R can be used to draw the corresponding genes on chromosome map quickly in PDF format based on the input data. It will become a useful tool for drawing genes on chromosome map with the advantages of simple input data format, easily modified output and very good portability.</br></br>
 

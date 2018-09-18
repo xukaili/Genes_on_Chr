@@ -12,7 +12,7 @@ perl -e '$/ = ">"; while (<>) {($head,$seq) = split(/\n/,$_,2); $len = length $s
 
 
 Get gene.txt form genome.gff:</br></br>
-perl  Search.pl  list.txt  GFF3.gff  >  gene.txt</br></br>
+perl    Search.pl    list.txt    GFF3.gff    >    gene.txt</br></br>
 
 # Contact information
 For any questions please contact xukai_li@qq.com</br></br>

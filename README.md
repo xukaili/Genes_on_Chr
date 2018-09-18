@@ -9,7 +9,7 @@ The __`Genes_on_Chr.R`__ can be used to draw the corresponding genes on chromoso
 All __`R`__ versions</br></br>
 
 ## Getting started
-Put __`Genes_on_Chr.R`__ and data files in a same dir, then run:</br></br>
+Put __`Genes_on_Chr.R`__ and data files in a same dir, then run:</br>
 ```
 Rscript  Genes_on_Chr.R  chr.txt  gene.txt
 ```
@@ -19,7 +19,7 @@ Rscript  Genes_on_Chr.R  chr.txt  gene.txt
 If you do not have the data files:</br>
 1. Get __`chr.txt`__ form __`genome.fa`__:</br>
 ```
-perl -e '$/ = ">"; while (<>) {($head,$seq) = split(/\n/,$_,2); $len = length $seq; $head =~ /(\d+)/; print "$1\t$len\n";}'  genome.fa > chr.txt
+perl -e '$/=">";while(<>){($head,$seq)=split(/\n/,$_,2);$len=length $seq;$head=~/(\d+)/;print "$1\t$len\n";}' genome.fa>chr.txt
 ```
 </br>
 

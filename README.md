@@ -25,7 +25,8 @@ perl -e '$/ = ">"; while (<>) {($head,$seq) = split(/\n/,$_,2); $len = length $s
 </br></br>
 
 2. Get __`gene.txt`__ form __`genome.gff`__:</br></br>
-```perl    Search.pl    list.txt    GFF3.gff    >    gene.txt</br>
+```
+perl    Search.pl    list.txt    GFF3.gff    >    gene.txt</br>
 ```
 </br>
 

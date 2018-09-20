@@ -10,7 +10,6 @@ The __`Genes_on_Chr.R`__ can be used to draw the corresponding genes on chromoso
 > A tool to draw genes on chromosome based on R language.</br>
 > LI Xukai1, QIE Qianru, ZHANG Liling, LI Hongying.</br>
 > Chinese Journal of BioInformatics, 2018.</br>
-</br></br>
 
 ## Dependencies
 All __`R`__ versions</br></br>

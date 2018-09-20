@@ -7,7 +7,6 @@ The __`Genes_on_Chr.R`__ can be used to draw the corresponding genes on chromoso
 > 基因基于R语言在染色体位置作图.</br>
 > 李旭凯，郄倩茹，张丽玲，李红英.</br>
 > 生物信息学，2018.</br>
-</br>
 > A tool to draw genes on chromosome based on R language.</br>
 > LI Xukai1, QIE Qianru, ZHANG Liling, LI Hongying.</br>
 > Chinese Journal of BioInformatics, 2018.</br>

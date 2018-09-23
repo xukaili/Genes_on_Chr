@@ -23,8 +23,14 @@ Rscript  Genes_on_Chr.R  chr.txt  gene.txt
 The structure of chr.txt data is: the first column is the chromosome number, and the second column is the base_pair of chromosome:</br>
 ```
 1         Length_1
+```
+```
 2         Length_2
+```
+```
 3         Length_3
+```
+```
 ...         ...
 ```
 </br>

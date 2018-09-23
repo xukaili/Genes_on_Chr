@@ -20,13 +20,14 @@ Put __`Genes_on_Chr.R`__ and data files in a same dir, then run:</br>
 Rscript  Genes_on_Chr.R  chr.txt  gene.txt
 ```
 </br>
-The structure of chr.txt data is: the first column is the chromosome number, and the second column is the base_pair of chromosome:</br>
+The structure of __`chr.txt`__ data is: the first column is the chromosome number, and the second column is the base_pair of chromosome:</br>
+
 ```
-1         Length_1
+1    Length_1
 ```
 
 </br>
-The structure of gene.txt data is: the first column is the chromosome number, the second column is the location of the gene, and the third column is the name of the gene:</br>
+The structure of __`gene.txt`__ data is: the first column is the chromosome number, the second column is the location of the gene, and the third column is the name of the gene:</br>
 ```
 1    site_1       Gene_name_1
 1    site_2       Gene_name_2

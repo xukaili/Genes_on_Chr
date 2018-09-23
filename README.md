@@ -41,7 +41,7 @@ The structure of __`gene.txt`__ (tab-delimited) data is: the first column is the
 ```
 </br>
 
-If you do not have the data files:</br>
+### If you do not have the data files
 1. Get __`chr.txt`__ form __`genome.fa`__:</br>
 ```
 perl -e '$/ = ">"; while (<>) {($head, $seq) = split (/\n/, $_, 2); $len = length $seq; $head =~ /(\d+)/; print "$1\t$len\n";}' genome.fa > chr.txt

@@ -1,9 +1,9 @@
 # Genes_on_Chr
-Extract detail information from __`Genes_on_Chr.R`__
+Extract detailed information from __`Genes_on_Chr.R`__
 ![At](Genes_on_Chr_At.png)
 ![Os](Genes_on_Chr_Os.png)
 ## Description
-The __`Genes_on_Chr.R`__ can be used to draw the corresponding genes on chromosome map quickly in `PDF` format based on the input data. It will become a useful tool for `drawing genes on chromosome map` with the advantages of simple input data format, easily modified output and very good portability. __`Genes_on_Chr.R`__ is open source, so all we ask is that you cite our most recent paper in any publications that use this script:</br>
+__`Genes_on_Chr.R`__ can be used to draw the location of genes on chromosomes map quickly in `PDF` format based on the input data. It will become a useful tool for `drawing genes on chromosomes map` with the advantages of a simple input data format, easily modified output and very good portability. __`Genes_on_Chr.R`__ is open source, so all we ask is that you cite our most recent paper in any publications that use this script:</br>
 > 基因基于R语言在染色体位置作图.</br>
 > 李旭凯，郄倩茹，张丽玲，李红英.</br>
 > 生物信息学，2018.</br></br>
@@ -21,7 +21,6 @@ Rscript  Genes_on_Chr.R  chr.txt  gene.txt
 ```
 </br>
 
-## Contact information
 If you do not have the data files:</br>
 1. Get __`chr.txt`__ form __`genome.fa`__:</br>
 ```

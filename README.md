@@ -21,7 +21,7 @@ Rscript  Genes_on_Chr.R  chr.txt  gene.txt
 ```
 </br>
 
-The structure of __`chr.txt`__ (tab-delimited) data is: the first column is the __chromosome number__, and the second column is the __base_pair of chromosome__ (Length):</br>
+The structure of __`chr.txt`__ (tab-delimited) data is: the first column is the __`chromosome number`__, and the second column is the __`base_pair of chromosome`__ (Length):</br>
 
 ```
 1    Length_1
@@ -32,7 +32,7 @@ The structure of __`chr.txt`__ (tab-delimited) data is: the first column is the 
 
 </br>
 
-The structure of __`gene.txt`__ (tab-delimited) data is: the first column is the __chromosome number__, the second column is __location of the gene__, and the third column is __name of the gene__:</br>
+The structure of __`gene.txt`__ (tab-delimited) data is: the first column is the __`chromosome number`__, the second column is __`location of the gene`__, and the third column is __`name of the gene`__:</br>
 ```
 1    site_1       Gene_name_1
 1    site_2       Gene_name_2

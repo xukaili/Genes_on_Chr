@@ -6,10 +6,10 @@ Extract detailed information from __`Genes_on_Chr.R`__
 __`Genes_on_Chr.R`__ can be used to draw the location of genes on chromosomes map quickly in `PDF` format based on the input data. It will become a useful tool for `drawing genes on chromosomes map` with the advantages of a simple input data format, easily modified output and very good portability. __`Genes_on_Chr.R`__ is open source, so all we ask is that you cite our most recent paper in any publications that use this script:</br>
 > 基因基于R语言在染色体位置作图.</br>
 > 李旭凯，郄倩茹，张丽玲，李红英.</br>
-> 生物信息学，2018.</br></br>
+> xx，2018.</br></br>
 > A tool to draw genes on chromosome based on R language.</br>
 > LI Xukai, QIE Qianru, ZHANG Liling, LI Hongying.</br>
-> Chinese Journal of BioInformatics, 2018.</br>
+> xx, 2018.</br>
 
 ## Dependencies
 All __`R`__ versions</br></br>
@@ -21,7 +21,7 @@ Rscript  Genes_on_Chr.R  chr.txt  gene.txt
 ```
 </br>
 
-The structure of __`chr.txt`__ (tab-delimited) data is: the first column is the __`chromosome number`__, and the second column is the __`base_pair of chromosome`__ (Length):</br>
+The structure of __`chr.txt`__ (tab-delimited) data is: the first column is the __`chromosome number`__, and the second column is t信息学he __`base_pair of chromosome`__ (Length):</br>
 
 ```
 1    Length_1
